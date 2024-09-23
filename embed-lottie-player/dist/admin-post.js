@@ -1,0 +1,2 @@
+!function(){"use strict";window.copyBPlAdminShortcode=function(e){var o=document.querySelector("#bPlAdminShortcode-"+e+" input"),t=document.querySelector("#bPlAdminShortcode-"+e+" .tooltip");o.select(),o.setSelectionRange(0,30),document.execCommand("copy"),t.innerHTML=wp.i18n.__("Copied Successfully!","lottie-player"),setTimeout((function(){t.innerHTML=wp.i18n.__("Copy To Clipboard","lottie-player")}),1500)}}();
+//# sourceMappingURL=admin-post.js.map
