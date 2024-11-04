@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Lottie Player - Block
  * Description: Lottie player for display lottie files.
- * Version: 1.1.6
+ * Version: 1.1.7
  * Author: bPlugins
  * Author URI: https://bplugins.com
  * License: GPLv3
@@ -23,7 +23,7 @@ if ( function_exists( 'lpb_fs' ) || function_exists( 'lpb_init' ) ) {
 		}
 	} );
 }else{
-	define( 'LPB_VERSION', isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '1.1.6' );
+	define( 'LPB_VERSION', isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '1.1.7' );
 	define( 'LPB_DIR_URL', plugin_dir_url( __FILE__ ) );
 	define( 'LPB_DIR_PATH', plugin_dir_path( __FILE__ ) );
 	define( 'LPB_HAS_FREE', 'embed-lottie-player/plugin.php' === plugin_basename( __FILE__ ) );
@@ -43,7 +43,7 @@ if ( function_exists( 'lpb_fs' ) || function_exists( 'lpb_init' ) ) {
 	}
 
 	if ( LPB_HAS_PRO ) {
-		require_once LPB_DIR_PATH . 'inc/fs-init.php';
+		require_once LPB_DIR_PATH . 'includes/fs-init.php';
 
 		if( function_exists( 'lpb_fs' ) ){
 			lpb_fs()->set_basename( false, __FILE__ );
@@ -61,16 +61,17 @@ if ( function_exists( 'lpb_fs' ) || function_exists( 'lpb_init' ) ) {
 		}
 	}
 
-	require_once LPB_DIR_PATH . '/inc/block.php';
-	require_once LPB_DIR_PATH . '/inc/CustomPost.php';
-	require_once LPB_DIR_PATH . '/inc/HelpPage.php';
+	require_once LPB_DIR_PATH . '/includes/CustomPost.php';
+	require_once LPB_DIR_PATH . '/includes/HelpPage.php';
 
-	if( LPB_HAS_FREE ){
-		require_once LPB_DIR_PATH . '/inc/UpgradePage.php';
-	}
+	// if( LPB_HAS_FREE ){
+	// 	require_once LPB_DIR_PATH . '/includes/UpgradePage.php';
+	// }
 
 	class LPBPlugin{
 		function __construct(){
+			add_action( 'init', [$this, 'onInit'] );
+			add_action( 'enqueue_block_assets', [$this, 'enqueueBlockAssets'] );
 			add_action( 'wp_ajax_lpbPipeChecker', [$this, 'lpbPipeChecker'] );
 			add_action( 'wp_ajax_nopriv_lpbPipeChecker', [$this, 'lpbPipeChecker'] );
 			add_action( 'admin_init', [$this, 'registerSettings'] );
@@ -80,6 +81,15 @@ if ( function_exists( 'lpb_fs' ) || function_exists( 'lpb_init' ) ) {
 
 			add_filter( 'upload_mimes', [$this, 'uploadMimes'] );
 			add_filter( 'wp_check_filetype_and_ext', [$this, 'wpCheckFileTypeAndExt'], 10, 5 );
+		}
+
+		function onInit(){
+			register_block_type( __DIR__ . '/build' );
+		}
+
+		function enqueueBlockAssets(){
+			wp_register_script( 'dotLottiePlayer', LPB_DIR_URL . '/public/js/dotlottie-player.js', [], '1.5.7', true );
+			wp_register_script( 'lottieInteractivity', LPB_DIR_URL . '/public/js/lottie-interactivity.min.js', [ 'dotLottiePlayer' ], '1.5.2', true );
 		}
 
 		function lpbPipeChecker(){

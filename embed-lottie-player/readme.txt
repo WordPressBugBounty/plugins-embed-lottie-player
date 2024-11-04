@@ -4,7 +4,7 @@ Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, lottie, animations, motion, Gutenberg block
 Requires at least: 6.2+
 Tested up to: 6.6.2
-Stable tag: 1.1.6
+Stable tag: 1.1.7
 Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -122,7 +122,7 @@ With its features, this plugin offers a comprehensive solution for integrating a
 
 🔥 **[PDF Poster](https://bplugins.com/products/pdf-poster)** – A fully-featured PDF Viewer Plugin for WordPress.
 
-🔥 **[Document Embedder](https://bplugins.com/products/document-embedder)** – Best WordPress Document Embeder Plugin.
+🔥 **[Document Embedder](https://bplugins.com/products/document-embedder)** – Best WordPress Document Embedder Plugin.
 
 🔥 **[3D Viewer](https://bplugins.com/products/3d-viewer)** – Display interactive 3D models on the webs.
 
@@ -198,59 +198,10 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 == Changelog ==
 
-= 1.1.6 - 21 May 2024 =
-* Fix issues.
-
-= 1.1.5 - 6 Feb 2024 =
-* Performance Improvement
-
-= 1.1.4 - 23 Sep 2023 =
-* Update SDK.
-
-= 1.1.3 =
+= 1.1.7 - 4 Nov 2024 =
+* Fix Height Issue.
+* Fix ShortCode Issue.
 * Update SDK
-
-= 1.1.2 =
-* Fix license issue.
-
-= 1.1.1 =
-* Fix align issue.
-
-= 1.1.0 =
-* Support .lottie file.
-
-= 1.0.9 =
-* License activation problem fix.
-
-= 1.0.8 =
-* Fix Play animation when visible.
-
-= 1.0.7 =
-* Fix Control showing for a moment.
-
-= 1.0.6 =
-* Added license activation system.
-
-= 1.0.5 =
-* Fix free-pro activation conflict.
-
-= 1.0.4 =
-* Add shortcode feature
-
-= 1.0.3 =
-* Add translate feature
-
-= 1.0.2 =
-* Not load scripts if block not used
-
-= 1.0.1 =
-* Add Scroll relative to container interactivity
-
-= 1.0.0 =
-* Initial Release
-
-
-== Upgrade Notice ==
 
 = 1.1.6 - 21 May 2024 =
 * Fix issues.
