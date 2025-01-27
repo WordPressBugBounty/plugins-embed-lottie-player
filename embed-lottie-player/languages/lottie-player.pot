@@ -1,25 +1,25 @@
-# Copyright (C) 2024 bPlugins
+# Copyright (C) 2025 bPlugins
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Lottie Player - Block 1.1.7\n"
+"Project-Id-Version: Embed Lottie Player - Block 1.1.8\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/embed-lottie-player-pro\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-11-04T06:09:53+00:00\n"
+"POT-Creation-Date: 2025-01-27T16:41:47+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.8.1\n"
 "X-Domain: lottie-player\n"
 
 #. Plugin Name of the plugin
-msgid "Lottie Player - Block"
+msgid "Embed Lottie Player - Block"
 msgstr ""
 
 #. Description of the plugin
-msgid "Lottie player for display lottie files."
+msgid "Embed Lottie player for display lottie files."
 msgstr ""
 
 #. Author of the plugin

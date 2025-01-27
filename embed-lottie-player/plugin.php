@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name: Lottie Player - Block
- * Description: Lottie player for display lottie files.
- * Version: 1.1.7
+ * Plugin Name: Embed Lottie Player - Block
+ * Description: Embed Lottie player for display lottie files.
+ * Version: 1.1.8
  * Author: bPlugins
  * Author URI: https://bplugins.com
  * License: GPLv3
@@ -23,7 +23,7 @@ if ( function_exists( 'lpb_fs' ) || function_exists( 'lpb_init' ) ) {
 		}
 	} );
 }else{
-	define( 'LPB_VERSION', isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '1.1.7' );
+	define( 'LPB_VERSION', isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '1.1.8' );
 	define( 'LPB_DIR_URL', plugin_dir_url( __FILE__ ) );
 	define( 'LPB_DIR_PATH', plugin_dir_path( __FILE__ ) );
 	define( 'LPB_HAS_FREE', 'embed-lottie-player/plugin.php' === plugin_basename( __FILE__ ) );

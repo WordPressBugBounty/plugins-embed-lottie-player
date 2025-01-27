@@ -2,9 +2,9 @@
 Contributors: bplugins, abuhayat, charlescormier, freemius
 Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, lottie, animations, motion, Gutenberg block
-Requires at least: 6.2+
-Tested up to: 6.6.2
-Stable tag: 1.1.7
+Requires at least: 6.5+
+Tested up to: 6.7.1
+Stable tag: 1.1.8
 Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -198,6 +198,9 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 == Changelog ==
 
+= 1.1.8 - 27 Jan 2025 =
+* Update SDK.
+
 = 1.1.7 - 4 Nov 2024 =
 * Fix Height Issue.
 * Fix ShortCode Issue.
@@ -252,4 +255,4 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 * Add Scroll relative to container interactivity
 
 = 1.0.0 =
-* Initial Release
+* Initial Release.
