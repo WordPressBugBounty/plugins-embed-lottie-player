@@ -3,8 +3,8 @@ Contributors: bplugins, abuhayat, charlescormier, freemius
 Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, lottie, animations, motion, Gutenberg block
 Requires at least: 6.5+
-Tested up to: 6.7.1
-Stable tag: 1.1.8
+Tested up to: 6.8
+Stable tag: 1.2.0
 Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -197,6 +197,9 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 
 == Changelog ==
+
+= 1.2.0 - 23 Apr 2025 =
+* Remove mime types.
 
 = 1.1.8 - 27 Jan 2025 =
 * Update SDK.

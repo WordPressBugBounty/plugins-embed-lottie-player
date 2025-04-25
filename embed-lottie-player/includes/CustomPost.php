@@ -105,7 +105,7 @@ class LPBCustomPost{
 		if ( $column_name == 'shortcode' ) {
 			echo '<div class="bPlAdminShortcode" id="bPlAdminShortcode-' . esc_attr( $post_ID ) . '">
 				<input value="[lpb id=' . esc_attr( $post_ID ) . ']" onclick="copyBPlAdminShortcode(\'' . esc_attr( $post_ID ) . '\')">
-				<span class="tooltip">' . esc_html__( 'Copy To Clipboard' ) . '</span>
+				<span class="tooltip">' . esc_html__( 'Copy To Clipboard', 'lottie-player' ) . '</span>
 			</div>';
 		}
 	}
