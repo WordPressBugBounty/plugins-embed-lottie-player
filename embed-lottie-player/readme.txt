@@ -1,10 +1,10 @@
-=== Lottie Player- Great Lottie Player Solution ===
+=== Lottie Player – Add Interactive Lottie Animations with Block Support ===
 Contributors: bplugins, abuhayat, charlescormier, freemius
 Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, lottie, animations, motion, Gutenberg block
 Requires at least: 6.5+
-Tested up to: 6.8
-Stable tag: 1.2.0
+Tested up to: 6.9
+Stable tag: 1.2.2
 Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -29,7 +29,7 @@ Additionally, you can display captions below the player and customize their appe
 
 With its features, this plugin offers a comprehensive solution for integrating and customizing Lottie animations to elevate the visual appeal and interactivity of your WordPress website.
 
-[Plugin Demo](https://bplugins.com/products/lottie-player) | [Documentation](https://bplugins.com/docs/lottie-player) | [Get Pro Version](https://bplugins.com/products/lottie-player/#pricing)
+[Plugin Demo](https://bplugins.com/products/lottie-player) | [Documentation](https://bplugins.com/docs/lottie-player) | [Get Pro Version](https://bplugins.com/products/lottie-player/pricing)
 
 
 ### Lottie Player Features
@@ -109,24 +109,24 @@ With its features, this plugin offers a comprehensive solution for integrating a
 #### - Did you like this plugin? Dislike it? Have a feature request? [Please share your feedback with us](mailto:support@bplugins.com 'Send feedback')
 
 
-### ⭐ Check out the Parent Plugin of this plugin-
+### Check out the Parent Plugin of this plugin-
 
-🔥 **[B Blocks](https://bblockswp.com)** – Best gutenberg blocks collections for WordPress.
+[**B Blocks**](https://bblockswp.com) – A blocks collection and page building tool for Gutenberg.
 
 
-### ⭐ Check out our other WordPress Plugins-
+### Check out our other WordPress Plugins-
 
-🔥 **[Html5 Audio Player](https://bplugins.com/products/html5-audio-player)** – Best audio player plugin for WordPress.
+[**Html5 Video Player**](https://bplugins.com/products/html5-video-player/) – Display videos as single and playlist in multiple skins.
 
-🔥 **[Html5 Video Player](https://bplugins.com/products/html5-video-player)** – Best video player plugin for WordPress.
+[**PDF Poster**](https://bplugins.com/products/pdf-poster/) – Display/Embed PDF files with different styles.
 
-🔥 **[PDF Poster](https://bplugins.com/products/pdf-poster)** – A fully-featured PDF Viewer Plugin for WordPress.
+[**Html5 Audio Player**](https://bplugins.com/products/html5-audio-player/) – Listen audios with awesome visuals.
 
-🔥 **[Document Embedder](https://bplugins.com/products/document-embedder)** – Best WordPress Document Embedder Plugin.
+[**StreamCast**](https://bplugins.com/products/streamcast-radio-player/) – Customizable radio player with different skins.
 
-🔥 **[3D Viewer](https://bplugins.com/products/3d-viewer)** – Display interactive 3D models on the webs.
+[**3D Viewer**](https://bplugins.com/products/3d-viewer/) – Embed 3D models and 3D products with interaction.
 
-🔥 **[Advanced Post Block](https://bplugins.com/products/advanced-post-block)** – Best Post Display Plugin for WordPress.
+[**Advanced Post Block**](https://bplugins.com/products/advanced-post-block/) – Show posts and custom posts in different layouts.
 
 
 ### Blocks
@@ -198,6 +198,10 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 == Changelog ==
 
+= 1.2.1 - 24 Nov 2025 =
+* Update SDK
+* New Admin UI
+
 = 1.2.0 - 23 Apr 2025 =
 * Remove mime types.
 
@@ -255,7 +259,7 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 * Not load scripts if block not used
 
 = 1.0.1 =
-* Add Scroll relative to container interactivity
+* Add Scroll relative to container interactivity.
 
 = 1.0.0 =
 * Initial Release.

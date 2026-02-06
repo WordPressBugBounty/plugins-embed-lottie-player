@@ -85,7 +85,7 @@
     },
     "width": {
       "type": "string",
-      "default": "450px"
+      "default": ""
     },
     "background": {
       "type": "string",
@@ -101,23 +101,23 @@
     },
     "controlsIconColor": {
       "type": "string",
-      "default": "#4527a4"
+      "default": "#146EF5"
     },
     "controlsIconHoverColor": {
       "type": "string",
-      "default": "#8344c5"
+      "default": "#FF7A00"
     },
     "controlsIconActiveColor": {
       "type": "string",
-      "default": "#8344c5"
+      "default": "#FF7A00"
     },
     "controlsTrackColor": {
       "type": "string",
-      "default": "#8344c5"
+      "default": "#FF7A00"
     },
     "controlsThumbColor": {
       "type": "string",
-      "default": "#4527a4"
+      "default": "#146EF5"
     },
     "isCap": {
       "type": "boolean",
@@ -142,9 +142,9 @@
       "type": "object",
       "default": {
         "fontSize": {
-          "desktop": 14,
-          "tablet": 14,
-          "mobile": 14
+          "desktop": {
+            "desktop": "14px"
+          }
         }
       }
     },
