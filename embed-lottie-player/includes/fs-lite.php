@@ -27,7 +27,7 @@ if ( ! function_exists( 'lpb_fs' ) ) {
 						'slug'	=> 'tools.php'
 					],
 					'contact'		=> false,
-					'support'		=> false,
+					'support'		=> false
 				]
 			] );
 		}
