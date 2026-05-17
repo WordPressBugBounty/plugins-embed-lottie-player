@@ -16,18 +16,12 @@ if ( ! function_exists( 'lpb_fs' ) ) {
 				'type'					=> 'plugin',
 				'public_key'			=> 'pk_8be5ff74d8f915918e0992c8de37c',
 				'is_premium'			=> false,
-				'premium_suffix'		=> 'Pro',
-				'has_premium_version'	=> true,
-				'has_addons'			=> false,
-				'has_paid_plans'		=> true,
 				'menu'					=> [
 					'slug'			=> 'lottie-player',
 					'first-path'	=> 'tools.php?page=lottie-player',
 					'parent'		=> [
 						'slug'	=> 'tools.php'
-					],
-					'contact'		=> false,
-					'support'		=> false
+					]
 				]
 			] );
 		}

@@ -1,16 +1,17 @@
 {
-  "apiVersion": 2,
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
   "name": "lpb/lottie-player",
   "title": "Lottie Player",
   "description": "Lottie player for display lottie files.",
-  "version": "1.2.4",
+  "version": "1.3.0",
   "category": "LPBlock",
   "keywords": [
     "lottie player",
     "json player",
     "lottie animation"
   ],
-  "textdomain": "lottie-player",
+  "textdomain": "embed-lottie-player",
   "attributes": {
     "align": {
       "type": "string",
@@ -178,16 +179,14 @@
   },
   "editorScript": [
     "file:./index.js",
-    "wp-api",
-    "dotLottiePlayer"
+    "wp-api"
   ],
   "editorStyle": "file:./index.css",
+  "script": "dotLottiePlayer",
   "style": "file:./view.css",
   "render": "file:./render.php",
   "viewScript": [
     "file:./view.js",
-    "wp-util",
-    "dotLottiePlayer",
-    "lottieInteractivity"
+    "wp-util"
   ]
 }

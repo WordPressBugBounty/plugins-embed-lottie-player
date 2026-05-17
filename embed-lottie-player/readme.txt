@@ -1,10 +1,10 @@
-=== Lottie Player – Add Interactive Lottie Animations with Block Support ===
+=== Embed Lottie Player – Add Interactive Lottie Animations with Block Support ===
 Contributors: bplugins, abuhayat, charlescormier, freemius
 Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, lottie, animations, motion, Gutenberg block
-Requires at least: 6.5+
+Requires at least: 6.5
 Tested up to: 6.9
-Stable tag: 1.2.4
+Stable tag: 1.3.0
 Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -198,6 +198,11 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 == Changelog ==
 
+= 1.3.0 - 17 May 2026 =
+* **Update:** Freemius Lite SDK to v2.2.0
+* **Update:** Block API version upgraded to v3
+* **Fix:** Minor bug fixes and code improvements for better stability
+
 = 1.2.4 - 05 Mar 2026 =
 * **Fix:** SDK version mismatch.
 * **Update:** Improved internationalization (i18n) by adding proper text domains.
@@ -264,10 +269,46 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 * Add translate feature
 
 = 1.0.2 =
-* Not load scripts if block not used
+* Not load scripts if block not used.
 
 = 1.0.1 =
 * Add Scroll relative to container interactivity.
 
 = 1.0.0 =
 * Initial Release.
+
+
+== Source Code ==
+
+You can find the source code, report bugs, and contribute to the development of this plugin on our GitHub repository:
+[**Embed Lottie Player on GitHub**](https://github.com/bPlugins/lottie-player)
+
+
+== Third-Party Libraries ==
+
+This plugin bundles the following third-party JavaScript/PHP libraries.
+
+= @dotlottie/player-component =
+* **Source:** https://www.npmjs.com/package/@dotlottie/player-component
+* **GitHub:** https://github.com/dotlottie/player-component
+* **License:** MIT – [https://github.com/dotlottie/player-component/blob/master/LICENSE](https://github.com/dotlottie/player-component/blob/master/LICENSE)
+* **Purpose:** Web component used to render and play dotLottie animations in the editor and front end.
+
+= @lottiefiles/lottie-interactivity =
+* **Source:** https://www.npmjs.com/package/@lottiefiles/lottie-interactivity
+* **GitHub:** https://github.com/LottieFiles/lottie-interactivity
+* **License:** MIT – [https://github.com/LottieFiles/lottie-interactivity/blob/master/LICENSE](https://github.com/LottieFiles/lottie-interactivity/blob/master/LICENSE)
+* **Purpose:** Adds scroll and cursor interactivity to Lottie animations.
+
+= Freemius Lite SDK =
+* **Source:** [https://bplugins.com/](https://bplugins.com/)
+* **GitHub:** [https://github.com/bPlugins/freemius-lite-sdk](https://github.com/bPlugins/freemius-lite-sdk)
+* **License:** GPL-2.0-or-later – [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html)
+* **Purpose:** Provides an opt-in consent form for usage tracking and analytics to help improve the plugin. No data is sent before explicit user consent.
+* **External Services:** Communicates with `api.bplugins.com` (activation events) and `wp.freemius.com` (opt-in processing) only after user opt-in. See [bPlugins Privacy Policy](https://bplugins.com/privacy-policy) and [Freemius Privacy Policy](https://freemius.com/privacy/).
+
+= bpl-tools =
+* Source / GitHub: https://github.com/bPlugins/bpl-tools
+* License: GPL-2.0-or-later – https://www.gnu.org/licenses/gpl-2.0.html
+* Purpose: Shared utility library providing admin dashboard components and common Gutenberg editor controls.
+* External Services: The library may connect to bPlugins, WordPress.org, and Freemius services for product data and checkout functionality. See full details: https://github.com/bPlugins/bpl-tools#external-requests--why-they-are-made
