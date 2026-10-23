@@ -5,12 +5,13 @@
  * Version: 1.3.0
  * Author: bPlugins
  * Author URI: https://bplugins.com
+ * Plugin URI: https://bplugins.com/products/lottie-player
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl-3.0.txt
  * Text Domain: embed-lottie-player
  * Requires at least: 6.5
- * Tested up to: 6.9
- * Requires PHP: 7.1
+ * Tested up to: 7.1
+ * Requires PHP: 7.4
  */
 
 // ABS PATH

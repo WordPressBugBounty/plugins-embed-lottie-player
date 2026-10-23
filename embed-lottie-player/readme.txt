@@ -1,85 +1,66 @@
-=== Embed Lottie Player – Add Interactive Lottie Animations with Block Support ===
+=== Embed Lottie Player – bring your pages to life with animation ===
 Contributors: bplugins, abuhayat, charlescormier, freemius
-Donate link: https://www.buymeacoffee.com/abuhayat
-Tags: block, lottie, animations, motion, Gutenberg block
-Requires at least: 6.5
-Tested up to: 6.9
+Tags: block, lottie, animations, motion, gutenberg block
+Tested up to: 7.1
 Stable tag: 1.3.0
 Requires PHP: 7.1
+Requires at least: 6.5
+Donate link: https://www.buymeacoffee.com/abuhayat
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Lottie Player lets you embed any type of LottieFiles animations into WordPress Gutenberg blocks. Enhances your website with dynamic motion graphics.
+Embed Lottie animations (.json and .dotlottie) in WordPress with a Gutenberg block – autoplay, loop, controls, interactivity, and styling.
 
 == Description ==
 
-You can embed any LottieFiles animations, .json or .dotlottie files to your WordPress Posts, Pages, Widgets, and more. This plugin is packed with many useful features. You can show your Lottie files exactly the way you want.
+**Add eye-catching Lottie motion graphics to any post, page, or widget – configure autoplay, looping, and interactivity in a few clicks, no code required.**
 
-This plugin has a huge number of options that you can use to achieve your desired goal.
+[**Plugin Demo**](https://bplugins.com/products/lottie-player) | [**Documentation**](https://bplugins.com/docs/lottie-player) | [**Get Pro Version**](https://bplugins.com/products/lottie-player/pricing)
 
-This WordPress plugin empowers you to easily integrate Lottie animations into your website with customizable features to enhance user interaction and design.
+### Why Embed Lottie Player?
 
-You can easily configure controls, autoplay, looping, links, and player alignment to seamlessly integrate animations into your website pages.
+Lottie animations are the modern way to add lightweight, crisp motion graphics to the web – and **Embed Lottie Player** makes using them in WordPress effortless. Embed any LottieFiles animation, .json, or .dotlottie file into posts, pages, and widgets with a dedicated Gutenberg block, then show your animation exactly the way you want.
 
-With the pro version, unlock advanced functionalities including the ability to upload both .json and .lottie file formats directly to the Lottie Player. Enable hover interactions, choose playback modes, set animation direction and counts, and adjust playback speed and interval for precise control over animation behavior. 
+https://youtube.com/watch?v=y9dLIYSr5G8
 
-Increase user experience by opening links in new tabs, and adding interactivity options like scroll synchronization, cursor movement effects, and click-triggered animations.
+The block is packed with options: show or hide player controls, enable autoplay and looping, attach a link, set the width, and align the player left, center, or right. You can even style the controls themselves – height, background color, icon colors, tracker, and thumb – to match your site.
 
-Additionally, you can display captions below the player and customize their appearance with various styling options including text alignment, typography, colors, padding, and margins.
+The Pro version goes further with direct file uploads, hover interactions, playback modes, direction, play count, speed, and interval controls, plus advanced interactivity like scroll synchronization, cursor-driven playback, and click-triggered animations – and a fully styleable caption below the player.
 
-With its features, this plugin offers a comprehensive solution for integrating and customizing Lottie animations to elevate the visual appeal and interactivity of your WordPress website.
+### Free Features
 
-[Plugin Demo](https://bplugins.com/products/lottie-player) | [Documentation](https://bplugins.com/docs/lottie-player) | [Get Pro Version](https://bplugins.com/products/lottie-player/pricing)
+- **JSON & dotLottie URLs:** Enter both .json and .lottie file URLs to embed animations.
+- **Player Controls:** Show controls so users can interact with the player.
+- **Autoplay:** Start the animation automatically on load.
+- **Loop:** Make the animation repeat seamlessly.
+- **Link:** Add a link to the player so users can navigate to any URL.
+- **Width & Alignment:** Set the player width and align it left, center, or right.
+- **Control Styling:** Customize height, background color, icon colors (normal, hover, active), tracker color, and thumb color.
 
+### Pro Version
 
-### Lottie Player Features
-- **File:** Enter both the .json and .lottie file url.
+- **Upload Files:** Upload both .json and .lottie files directly to the Lottie Player.
+- **Hover:** Play the animation when the mouse hovers over the player.
+- **Mode, Direction & Count:** Choose playback modes, set forward/backward direction, and specify how many times the animation plays.
+- **Speed & Interval:** Adjust playback speed and set an interval between loops.
+- **Open Link in New Tab:** Send visitors to your link without leaving the page.
+- **Interactivity:** Sync with scroll, scroll relative to the container, scroll with offset, sync with cursor position or horizontal movement, play on click, and play when visible.
+- **Caption & Caption Styles:** Show a caption below the player and customize its text alignment, typography, colors (text and background), padding, and margin.
 
-- **Controls:** You can show controls to allow users to interact with the player.
+### How to Use – Quick Start
 
-- **Autoplay:** You have the option to enable autoplay, allowing the animation to start automatically.
+1. Install and activate the **Lottie Player** block plugin.
+2. In the Gutenberg editor, add the **Lottie Player** block from the "Widgets" block category.
+3. Paste your .json or .lottie file URL.
+4. Configure controls, autoplay, loop, link, width, and alignment from the right-side settings sidebar.
+5. Publish – your animation is live.
 
-- **Loop:** You can enable looping, making the animation repeat seamlessly.
+### Use Cases
 
-- **Link:** You can add a link to the player, allowing users to navigate to a specific URL.
-
-- **Width and Align the player:** You can set the width for the player to match your desired design. Also, can align the player to the left, center, or right within its container.
-
-- **Customize the player controls:** Adjust the Height, Background Color, Icons Color, Icons Hover Color, Icon Active Color, Tracker Color, and Thumb Color to fit your website's style.
-
-
-### Lottie Player Pro Features
-- **Upload File:** Upload both the .json and .lottie file formats to use with Lottie Player.
-
-- **Hover:** The hover feature lets you enable interaction when the mouse hovers over the player.
-
-- **Mode:** You can choose from different playback modes to control how the animation behaves.
-
-- **Direction:** You can set the animation’s direction, such as forward or backward.
-
-- **Count:** This feature allows you to specify the number of times the animation should play.
-
-- **Speed:** You can adjust the playback speed of the animation.
-
-- **Interval:** This option enables you to set an interval between animation loops.
-
-- **Open link in a new tab:** Enable to open the link in the new tab.
-
-- **Interactivity:** Set different Interactions such as **Sync with scroll, Scroll relative to the container, Scroll with offset, Sync animation with cursor position, Sync animation with cursor horizontal movement, Play animation on click, Play animation when visible**.
-
-- **Caption:** Show caption below the player.
-
-- **Caption Styles:** Customize the caption's appearance, including Text alignment, Typography, Colors(text and background), Padding, and Margin.
-
-
-### How to use Lottie Player
-- First, install the Lottie Player block plugin.
-- Add the Lottie Player block from the block category called "Widgets" in the Gutenberg editor.
-- You can change block settings from the right-side settings sidebar.
-- Enjoy!
-
-* For installation help click on Installation Tab
-
+- **Landing Pages:** Replace static hero images with lightweight animated illustrations.
+- **Product Sites:** Explain features with looping micro-animations.
+- **Portfolios & Agencies:** Add polished motion design that loads fast.
+- **Blogs & Docs:** Illustrate steps and concepts with animated visuals.
 
 ### User Feedback
 
@@ -89,13 +70,11 @@ With its features, this plugin offers a comprehensive solution for integrating a
 
 ***-[juandemingo](https://wordpress.org/support/users/juandemingo/)***
 
-
 #### ⭐⭐⭐⭐⭐ [Amazing Plugin!](https://wordpress.org/support/topic/amazing-plugin-2188/)
 
 ❛❛***This is a fantastic plugin to configure Lottie Animations. Simple and easy to use but still very customizable. The support team helped me a lot while i built my site. Thank you very much guys***❜❜
 
 ***-[bueroblanko](https://wordpress.org/support/users/bueroblanko/)***
-
 
 #### ⭐⭐⭐⭐⭐ [Recommended](https://wordpress.org/support/topic/recommended-371/)
 
@@ -105,14 +84,11 @@ With its features, this plugin offers a comprehensive solution for integrating a
 
 ***-[Martin Sauter](https://wordpress.org/support/users/martinsauter/)***
 
-
-#### - Did you like this plugin? Dislike it? Have a feature request? [Please share your feedback with us](mailto:support@bplugins.com 'Send feedback')
-
+Did you like this plugin? Have a feature request? [Please share your feedback with us](mailto:support@bplugins.com 'Send feedback').
 
 ### Check out the Parent Plugin of this plugin-
 
 [**B Blocks**](https://bblockswp.com) – A blocks collection and page building tool for Gutenberg.
-
 
 ### Check out our other WordPress Plugins-
 
@@ -128,65 +104,62 @@ With its features, this plugin offers a comprehensive solution for integrating a
 
 [**Advanced Post Block**](https://bplugins.com/products/advanced-post-block/) – Show posts and custom posts in different layouts.
 
-
 ### Blocks
+
 This plugin provides 1 block.
 
 &nbsp;&nbsp;&nbsp;&nbsp; **Lottie Player** - Lottie player for display lottie files.
 
-
 == Installation ==
 
-### From Gutenberg Editor:
-1. Go to the WordPress Block/Gutenberg Editor
-2. Search For **Lottie Player**
-3. Click on the **Lottie Player** to add the block
+**From your WordPress dashboard (recommended):**
 
-### Download & Upload:
-1. Download the **Lottie Player** block plugin (*.zip file*)
-2. In your admin area, go to the Plugins menu and click on **Add New**
-3. Click on **Upload Plugin** and choose the **`lottie-player.zip`** file and click on **Install Now**
-4. Activate the plugin and Enjoy!
+1. Go to **Plugins → Add New**.
+2. Search for **"Lottie Player"**.
+3. Click **Install Now**, then **Activate**.
+4. In the Gutenberg editor, search for the **Lottie Player** block and add it to any post or page.
 
-### Manually:
-1. Download and upload the **Lottie Player** plugin to the **`/wp-content/plugins/`** directory
-2. Activate the plugin through the Plugins menu in WordPress
+**Manual installation:**
 
+1. Download the **Lottie Player** block plugin (.zip file).
+2. Go to **Plugins → Add New** and click **Upload Plugin**.
+3. Choose the `lottie-player.zip` file, click **Install Now**, then **Activate**.
+4. Alternatively, upload the plugin folder to the `/wp-content/plugins/` directory and activate it from the **Plugins** menu.
 
 == Frequently Asked Questions ==
 
 = Can I upload the Lottie file? =
+Yes, you can upload both the .json and .lottie file formats to use with Lottie Player. Please note that uploading files is a premium feature; the free version embeds files via URL.
 
-Yes, you can upload both the .json and .lottie file formats to use with Lottie Player. Please note that uploading files is a premium feature.
+= Which Lottie file formats are supported? =
+Both .json and .dotlottie (.lottie) files are supported – paste the file URL in the free version, or upload files directly with the Pro version.
 
 = Can I set the width and align the player? =
-
-Absolutely! you can set the width for the player to match your desired design. Also, can align the player to the left, center, or right within its container.
+Absolutely. You can set the player width to match your design and align it left, center, or right within its container.
 
 = Can I control the player? =
-
 Yes, you can show the controls and interact with them to control the Lottie Player.
 
 = How many features does the Lottie Player have? =
+You can show Controls, enable Autoplay, Loop, and add a Link for free. Premium features include Hover, Mode, Direction, Count, Speed, Interval, and opening the link in a new tab.
 
-You can show Controls, enable Autoplay, Loop and Link to the player for free. Also has premium features such as enable Hover, set Mode, Direction, Count, Speed, Interval, and toggle Link in a new tab.
+= Can I use interactivity with the Lottie Player? =
+Yes, Lottie Player supports various interactive features as part of its premium features: sync with scroll, scroll relative to the container, scroll with offset, sync animation with cursor position, sync animation with cursor horizontal movement, play animation on click, and play animation when visible.
 
-= Can I use interactivity with the Lottie player? =
-
-Yes, Lottie Player supports various interactive features as part of its premium features. You can use interactivity such as 'Sync with scroll, Scroll relative to the container, Scroll with offset, Sync animation with cursor position, Sync animation with cursor horizontal movement, Play animation on click, Play animation when visible'.
-
-= Can I display the caption below the player? =
-
-Absolutely! Lottie Player allows you to show the caption below the player. You can customize the caption's appearance, including Text Align, Typography, Colors(text and background), Padding, and Margin. Please note that the caption is a premium feature.
+= Can I display a caption below the player? =
+Absolutely. Lottie Player lets you show a caption below the player and customize its text alignment, typography, colors (text and background), padding, and margin. Please note that the caption is a premium feature.
 
 = Can I customize the player controls? =
+Yes. You can adjust the height, background color, icons color, icons hover color, icon active color, tracker color, and thumb color to fit your website's style.
 
-Yes, Lottie Player provides options to customize the design of the controls. You can adjust the Height, Background Color, Icons Color, Icons Hover Color, Icon Active Color, Tracker Color, and Thumb Color to fit your website's style.
+= Will the plugin slow down my website? =
+No. The player scripts are only loaded on pages where the block is actually used, keeping the rest of your site fast.
+
+= Can I use the animation outside the block editor? =
+Yes. The plugin includes a shortcode feature, so you can place your Lottie animation in shortcode-compatible areas as well.
 
 = Where can I get support? =
-
-You can post your questions on the [support forum here](https://wordpress.org/support/plugin/embed-lottie-player/)
-
+You can post your questions on the [support forum here](https://wordpress.org/support/plugin/embed-lottie-player/).
 
 == Screenshots ==
 
@@ -195,6 +168,39 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 3. Customize Player and Controls
 3. Settings
 
+== Source Code ==
+
+You can find the source code, report bugs, and contribute to the development of this plugin on our GitHub repository:
+[**Embed Lottie Player on GitHub**](https://github.com/bPlugins/lottie-player)
+
+== Third-Party Libraries ==
+
+This plugin bundles the following third-party JavaScript/PHP libraries.
+
+= @dotlottie/player-component =
+* **Source:** https://www.npmjs.com/package/@dotlottie/player-component
+* **GitHub:** https://github.com/dotlottie/player-component
+* **License:** MIT – [https://github.com/dotlottie/player-component/blob/master/LICENSE](https://github.com/dotlottie/player-component/blob/master/LICENSE)
+* **Purpose:** Web component used to render and play dotLottie animations in the editor and front end.
+
+= @lottiefiles/lottie-interactivity =
+* **Source:** https://www.npmjs.com/package/@lottiefiles/lottie-interactivity
+* **GitHub:** https://github.com/LottieFiles/lottie-interactivity
+* **License:** MIT – [https://github.com/LottieFiles/lottie-interactivity/blob/master/LICENSE](https://github.com/LottieFiles/lottie-interactivity/blob/master/LICENSE)
+* **Purpose:** Adds scroll and cursor interactivity to Lottie animations.
+
+= Freemius Lite SDK =
+* **Source:** [https://bplugins.com/](https://bplugins.com/)
+* **GitHub:** [https://github.com/bPlugins/freemius-lite-sdk](https://github.com/bPlugins/freemius-lite-sdk)
+* **License:** GPL-2.0-or-later – [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html)
+* **Purpose:** Provides an opt-in consent form for usage tracking and analytics to help improve the plugin. No data is sent before explicit user consent.
+* **External Services:** Communicates with `api.bplugins.com` (activation events) and `wp.freemius.com` (opt-in processing) only after user opt-in. See [bPlugins Privacy Policy](https://bplugins.com/privacy-policy) and [Freemius Privacy Policy](https://freemius.com/privacy/).
+
+= bpl-tools =
+* Source / GitHub: https://github.com/bPlugins/bpl-tools
+* License: GPL-2.0-or-later – https://www.gnu.org/licenses/gpl-2.0.html
+* Purpose: Shared utility library providing admin dashboard components and common Gutenberg editor controls.
+* External Services: The library may connect to bPlugins, WordPress.org, and Freemius services for product data and checkout functionality. See full details: https://github.com/bPlugins/bpl-tools#external-requests--why-they-are-made
 
 == Changelog ==
 
@@ -276,39 +282,3 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 = 1.0.0 =
 * Initial Release.
-
-
-== Source Code ==
-
-You can find the source code, report bugs, and contribute to the development of this plugin on our GitHub repository:
-[**Embed Lottie Player on GitHub**](https://github.com/bPlugins/lottie-player)
-
-
-== Third-Party Libraries ==
-
-This plugin bundles the following third-party JavaScript/PHP libraries.
-
-= @dotlottie/player-component =
-* **Source:** https://www.npmjs.com/package/@dotlottie/player-component
-* **GitHub:** https://github.com/dotlottie/player-component
-* **License:** MIT – [https://github.com/dotlottie/player-component/blob/master/LICENSE](https://github.com/dotlottie/player-component/blob/master/LICENSE)
-* **Purpose:** Web component used to render and play dotLottie animations in the editor and front end.
-
-= @lottiefiles/lottie-interactivity =
-* **Source:** https://www.npmjs.com/package/@lottiefiles/lottie-interactivity
-* **GitHub:** https://github.com/LottieFiles/lottie-interactivity
-* **License:** MIT – [https://github.com/LottieFiles/lottie-interactivity/blob/master/LICENSE](https://github.com/LottieFiles/lottie-interactivity/blob/master/LICENSE)
-* **Purpose:** Adds scroll and cursor interactivity to Lottie animations.
-
-= Freemius Lite SDK =
-* **Source:** [https://bplugins.com/](https://bplugins.com/)
-* **GitHub:** [https://github.com/bPlugins/freemius-lite-sdk](https://github.com/bPlugins/freemius-lite-sdk)
-* **License:** GPL-2.0-or-later – [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html)
-* **Purpose:** Provides an opt-in consent form for usage tracking and analytics to help improve the plugin. No data is sent before explicit user consent.
-* **External Services:** Communicates with `api.bplugins.com` (activation events) and `wp.freemius.com` (opt-in processing) only after user opt-in. See [bPlugins Privacy Policy](https://bplugins.com/privacy-policy) and [Freemius Privacy Policy](https://freemius.com/privacy/).
-
-= bpl-tools =
-* Source / GitHub: https://github.com/bPlugins/bpl-tools
-* License: GPL-2.0-or-later – https://www.gnu.org/licenses/gpl-2.0.html
-* Purpose: Shared utility library providing admin dashboard components and common Gutenberg editor controls.
-* External Services: The library may connect to bPlugins, WordPress.org, and Freemius services for product data and checkout functionality. See full details: https://github.com/bPlugins/bpl-tools#external-requests--why-they-are-made
