@@ -1,3 +1,3 @@
 <?php
-// Silent is golden
 if ( ! defined( 'ABSPATH' ) ) { exit; }
+// Silent is golden
